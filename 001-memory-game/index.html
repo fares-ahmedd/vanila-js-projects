@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="shortcut icon" type="image/png" href="favIcon.png" />
+    <link rel="stylesheet" href="all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,500;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="control-buttons">
+        <span>Start Game</span>
+    </div>
+    <div class="info-container">
+        <div class="name">
+            Hello: <span>waiting...</span>
+        </div>
+        <img src="fav-logo-3eeeee.png" alt="" width="80px">
+
+        <div class="game-progress">
+            <div class="tries">Wrong Tries: <span>0</span></div>
+            <div class="time-out">Timeout: <span>120s</span></div>
+        </div>
+    </div>
+    <div class="memory-game-blocks">
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="github">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-github"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="discord">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-discord"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="discord">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-discord"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="linkedin">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="linkedin">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="youtube">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="youtube">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="cloud">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-cloud"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="cloud">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-cloud"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="smile">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-face-smile"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="smile">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-face-smile"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="apple">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-apple"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="car">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-car"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="car">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-car"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="plane">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-plane"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="plane">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-solid fa-plane"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="facebook">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+        <div class="game-block" data-technology="facebook">
+            <div class="face front"></div>
+            <div class="face back">
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+        </div>
+    </div>
+    <div class="lost-screen hidden">
+        <h1>You Lost</h1>
+        <button class="play-again-btn">Play Again</button>
+    </div>
+
+    <audio id="success" src="success.mp3" preload="auto"></audio>
+    <audio id="fail" src="fall.mp3" preload="auto"></audio>
+    <script src="app.js"></script>
+</body>
+
+</html>

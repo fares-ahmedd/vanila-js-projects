@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA API Pictures</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://s2.googleusercontent.com/s2/favicons?domain=www.nasa.gov">
+</head>
+
+<body>
+    <!-- loader -->
+    <div class="loader hidden">
+        <img src="astronaut-1.svg" alt="" class="loader-img">
+    </div>
+    <!-- container -->
+    <div class="container">
+        <!-- navigation -->
+        <div class="navigation-container">
+            <span class="background"></span>
+            <!-- results nav -->
+            <span class="navigation-items" id="resultsNav">
+                <h3 class="clickable fav-btn">Favorites</h3>
+                <h3 class="space-icon">&nbsp;&nbsp;🚀&nbsp;&nbsp;&nbsp;</h3>
+                <h3 class="clickable load-more-btn">Load More</h3>
+            </span>
+            <!-- Favorites Nav -->
+            <span class="navigation-items hidden" id="favoritesNav">
+                <h3 class="clickable load-more-btn">Load More NASA Images</h3>
+            </span>
+        </div>
+        <!-- images container -->
+        <div class="images-container">
+            <!-- <div class="card">
+                <a href="" title="View Full Image" target="_blank">
+                    <img src="https://apod.nasa.gov/apod/image/2401/DSC07781_11Huff.jpg" class="card-img-top"
+                        alt="NASA PIC">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">Title of Image</h5>
+                    <p class="clickable">Add to Favorites</p>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quos omnis
+                        nostrum, minus vel ratione qui nulla possimus laborum facilis magni fuga esse blanditiis et ad
+                        minima animi vero repellendus?</p>
+                    <small class="text-muted">
+                        <strong>12-12-2020</strong>
+                        <span>Copyright info</span>
+                    </small>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- save confirm -->
+    <div class="save-confirmed hidden">
+        <h1>ADDED!</h1>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #222; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+
+.control-buttons {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background-color: rgb(255 87 34 / 29%);
+}
+.name span {
+  color: #ff4800;
+}
+.control-buttons span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f44336;
+  color: #fff;
+  padding: 15px 25px;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-container {
+  width: 95%;
+  margin: 20px auto 0;
+  background-color: #333;
+  padding: 20px;
+  font-size: 24px;
+  overflow: hidden;
+  border: 2px solid rgb(255 87 34 / 29%);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.memory-game-blocks {
+  display: flex;
+  width: 95%;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.memory-game-blocks.no-clicking {
+  pointer-events: none;
+}
+
+.memory-game-blocks .game-block {
+  height: 200px;
+  transition: transform 0.5s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+  flex: 1 0 200px;
+  margin: 0 10px 20px;
+  background-color: #444;
+}
+
+.memory-game-blocks .game-block .front {
+  background-color: #ccc;
+  line-height: 200px;
+}
+
+.memory-game-blocks .game-block .front:before {
+  content: "!";
+  color: #000;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.memory-game-blocks .game-block .back {
+  background-color: #607d8b;
+  transform: rotateY(180deg);
+}
+
+.memory-game-blocks .game-block .back i {
+  font-size: 140px;
+  margin-top: 30px;
+}
+
+.memory-game-blocks .game-block .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  backface-visibility: hidden;
+  border: 5px solid rgb(255 87 34 / 29%);
+}
+
+.memory-game-blocks .game-block.is-flipped,
+.memory-game-blocks .game-block.has-match {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  pointer-events: none;
+}
+
+.lost-screen {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1212127d;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  flex-direction: column;
+}
+.lost-screen.hidden {
+  display: none;
+}
+
+h1 {
+  font-size: 5em;
+  color: red;
+}
+
+.play-again-btn {
+  padding: 10px 20px;
+  background-color: #37474f;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 3em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.play-again-btn:hover {
+  background-color: #263238;
+}

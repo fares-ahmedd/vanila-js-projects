@@ -1,0 +1,72 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #1a1c1c;
+  color: white;
+}
+
+form {
+  background-color: #222;
+  padding: 20px;
+  margin: 15px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="text"],
+input[type="submit"] {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  max-width: 90%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  padding: 20px 10px;
+  margin-right: 10px;
+  width: 443px;
+  height: 15.5px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  height: 55.5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+
+@media (max-width: 400px) {
+  input[type="text"] {
+    max-width: 57%;
+    font-size: 16px;
+  }
+}
+
+article.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin: 0 20px;
+  background-color: #222;
+}
+.image {
+  border: 1px solid;
+}
+article.images .image img {
+  max-width: 300px;
+  width: 100%;
+}
+.image img {
+  width: 100%;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.527);
+}

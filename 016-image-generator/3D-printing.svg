@@ -1,0 +1,37 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 200px; height: 200px;"><style>
+     .line-3d-printing1-overall {animation:line-3d-printing1-overall 10s infinite;}
+     @keyframes line-3d-printing1-overall {
+         0%{transform: translate3d(0, 0, 0);}
+         10%{transform: translate3d(0, 0, 0);}
+         15%{transform: translate3d(0, 14px, 0);}
+         35%{transform: translate3d(0, 14px, 0);}
+         40%{transform: translate3d(0, 0, 0);}
+         65%{transform: translate3d(0, 0, 0);}
+         70%{transform: translate3d(0, 14px, 0);}
+         85%{transform: translate3d(0, 14px, 0);}
+         90%{transform: translate3d(0, 0, 0);}
+         100%{transform: translate3d(0, 0, 0);}
+     }
+     .line-3d-printing1-tool {animation:line-3d-printing1-tool 10s infinite;}
+     @keyframes line-3d-printing1-tool {
+         0%{transform: translate3d(0, 0, 0);}
+         10%{transform: translate3d(0, 0, 0);}
+         15%{transform: translate3d(0, 0, 0);}
+         20%{transform: translate3d(-3px, 0, 0);}
+         25%{transform: translate3d(3px, 0, 0);}
+         30%{transform: translate3d(0, 0, 0);}
+         45%{transform: translate3d(0, 0, 0);}
+         55%{transform: translate3d(0, 0, 0);}
+         65%{transform: translate3d(-25px, 0, 0);}
+         75%{transform: translate3d(-25px, 0, 0);}
+         80%{transform: translate3d(-20px, 0, 0);}
+         85%{transform: translate3d(-25px, 0, 0);}
+         90%{transform: translate3d(-25px, 0, 0);}
+         100%{transform: translate3d(0, 0, 0);}
+     }
+     @media (prefers-reduced-motion: reduce) {
+         .line-3d-printing1-overall, .line-3d-printing1-tool {
+             animation: none;
+         }
+     }
+    </style><rect class="fill1 stroke1" x="9" y="9" width="83" height="84" rx="4" fill="rgba(165,147,113,1)" stroke="rgba(255,255,255,1)" stroke-width="2px"></rect><path class="fill1 stroke1" d="M23 71C23 69.8954 23.8954 69 25 69H76C77.1046 69 78 69.8954 78 71V75H23V71Z" fill="rgba(165,147,113,1)" stroke-width="2px"></path><path class="fill1 stroke1" d="M78 75V71C78 69.8954 77.1046 69 76 69H25C23.8954 69 23 69.8954 23 71V75M78 75H23M78 75H86V15H15V75H23" stroke="rgba(255,255,255,1)" stroke-width="2px"></path><g class="line-3d-printing1-overall fill1 stroke1"><rect class="fill2 stroke2" x="15" y="29" width="71" height="7" fill="rgba(165,147,113,1)" stroke="rgba(255,255,255,1)" stroke-width="2px"></rect><g class="line-3d-printing1-tool fill2 stroke2"><path class="fill2 stroke2" d="M59 24C59 23.4477 59.4477 23 60 23H72C72.5523 23 73 23.4477 73 24V42C73 42.5523 72.5523 43 72 43H70H62H60C59.4477 43 59 42.5523 59 42V24Z" fill="rgba(165,147,113,1)" stroke-width="2px"></path><path class="fill2 stroke2" d="M62 43V48H70V43H62Z" fill="rgba(165,147,113,1)" stroke-width="2px"></path><path class="fill2 stroke2" d="M70 48H62L65.1318 53.4806C65.5157 54.1524 66.4843 54.1524 66.8682 53.4806L70 48Z" fill="rgba(165,147,113,1)" stroke-width="2px"></path><path class="fill2 stroke2" d="M62 43H60C59.4477 43 59 42.5523 59 42V24C59 23.4477 59.4477 23 60 23H72C72.5523 23 73 23.4477 73 24V42C73 42.5523 72.5523 43 72 43H70M62 43V48M62 43H70M62 48H70M62 48L65.1318 53.4806C65.5157 54.1524 66.4843 54.1524 66.8682 53.4806L70 48M70 48V43" stroke="rgba(255,255,255,1)" stroke-width="2px"></path></g></g><circle class="fill2 stroke2" cx="20" cy="84" r="4" fill="rgba(165,147,113,1)" stroke="rgba(255,255,255,1)" stroke-width="2px"></circle><circle class="fill2 stroke2" cx="33" cy="84" r="4" fill="rgba(165,147,113,1)" stroke="rgba(255,255,255,1)" stroke-width="2px"></circle><circle class="fill2 stroke2" cx="46" cy="84" r="4" fill="rgba(165,147,113,1)" stroke="rgba(255,255,255,1)" stroke-width="2px"></circle></svg>
