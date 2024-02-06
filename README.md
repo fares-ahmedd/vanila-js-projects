@@ -35,7 +35,7 @@
 |||||
 | 17   | [xo-game](https://github.com/fares-ahmedd/vanila-js-projects/tree/main/017-xo-game) | [live Demo](https://tic-tac-game45.netlify.app/)   | ![017](https://github.com/fares-ahmedd/vanila-js-projects/assets/110955622/30498997-8a74-4ace-8c79-7878c70379e7) |
 |||||
-| 19   | [comfy-store](https://github.com/fares-ahmedd/vanila-js-projects/tree/main/018-comfy-store) | [live Demo](https://comfy-store-simple-shop-site.netlify.app/)   | ![018](https://github.com/fares-ahmedd/vanila-js-projects/assets/110955622/a16a90fd-b657-421b-b430-25f859e9d817) |
+| 18   | [comfy-store](https://github.com/fares-ahmedd/vanila-js-projects/tree/main/018-comfy-store) | [live Demo](https://comfy-store-simple-shop-site.netlify.app/)   | ![018](https://github.com/fares-ahmedd/vanila-js-projects/assets/110955622/a16a90fd-b657-421b-b430-25f859e9d817) |
 
 
 
