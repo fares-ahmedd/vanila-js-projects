@@ -4,7 +4,7 @@ const imagesContainer = document.querySelector("article");
 const images = document.querySelectorAll(".image img");
 
 // ! vars
-const key = "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";
+const key = "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";
 
 //! functions
 
